@@ -764,13 +764,17 @@ a.more {
     display: none;
 }
 
-#hero .swiper-button-next, .swiper-button-prev {
+/* #hero .swiper-button-next, .swiper-button-prev {
     color: #fff;
+    
 }
 
 #hero .swiper-pagination-bullet-active {
-    color: #fff;
-}
+    background: #fff;
+} */
+
+.swiper-button-next, .swiper-button-prev {color: #fff !important; }
+.swiper-pagination-bullet-active {background: #fff !important; }
 
 /* 반응형 */
 
