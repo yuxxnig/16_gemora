@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'isocpeur';
+  src: url('/path-to/isocpeur.woff2') format('woff2'),
+       url('/path-to/isocpeur.woff') format('woff'),
+       url('/path-to/isocpeur.ttf')  format('truetype');
+}
+
+body {
+  font-family: 'isocpeur', sans-serif;
+}
